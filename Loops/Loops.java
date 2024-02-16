@@ -32,8 +32,7 @@ public class Loops {
     }
     public static void forLoop(){
         // multidimensional array
-        int[][] arr = {{1,2,3,4},{5,6,7,8}}; 
-        FirstLoop:
+        int[][] arr = {{1,2,3,4},{5,6,7,8}};
         for (int i = 0; i < arr.length; i++) {
             SecondLoop:
             for (int j = 0; j < arr[i].length; j++) {
