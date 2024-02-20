@@ -17,6 +17,10 @@ public class ArrayTypes {
         Integer[] intArray = {1,2,3,4,5};
         List<Integer> lst = new ArrayList<>(Arrays.asList(intArray));
         lst.add(6);
+
+        String[] a = {"a","b","c"};
+        int[] b = {1,2,3,4,5}; 
+        List<String> lst4 = new ArrayList<>(Arrays.asList("a","b"));
         //method 2: using collection
         String[] str1 = {"paul", "mwangi", "kabui"};
         List<String> listStr = new ArrayList<>();
