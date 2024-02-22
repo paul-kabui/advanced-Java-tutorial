@@ -25,7 +25,7 @@ class Child extends Parent{
     }
     public static void main(String[] args) {
         Child child1 = new Child("Kabui", 55, "paul", 25);
-        System.out.println(child1.getParentName()+ child1.getParentAge() + child1.childAge);
+        System.out.println(child1.childName);
     }
     
 }
