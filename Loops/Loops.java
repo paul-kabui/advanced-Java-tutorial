@@ -43,6 +43,7 @@ public class Loops {
             }
         }
 
+
         // interate over the second loop
         // for (int i = 0; i < arr[1].length; i++) {
         //     System.out.println(arr[1][i]);
